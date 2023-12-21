@@ -1,0 +1,46 @@
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\appsettings.json
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Checking stocks using GPT.exe
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Checking stocks using GPT.deps.json
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Checking stocks using GPT.runtimeconfig.json
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Checking stocks using GPT.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Checking stocks using GPT.pdb
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.AssemblyInfo.cs
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\staticwebassets\msbuild.Checking stocks using GPT.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\staticwebassets\msbuild.build.Checking stocks using GPT.props
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Checking stocks using GPT.props
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Checking stocks using GPT.props
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\scopedcss\bundle\Checking stocks using GPT.styles.css
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.csproj.CopyComplete
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\refint\Checking stocks using GPT.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.pdb
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\Checking stocks using GPT.genruntimeconfig.cache
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\obj\Debug\net6.0\ref\Checking stocks using GPT.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\DnsClient.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\Snappier.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\user\source\repos\Checking stocks using GPT\Checking stocks using GPT\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll

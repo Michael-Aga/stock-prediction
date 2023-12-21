@@ -1,0 +1,6 @@
+@Checking_stocks_using_GPT_HostAddress = http://localhost:5183
+
+GET {{Checking_stocks_using_GPT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
