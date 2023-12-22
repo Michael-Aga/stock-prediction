@@ -1,5 +1,6 @@
 using Checking_stocks_using_GPT;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
 /*How to run the program just click the green button on the top with IIS Express
@@ -14,58 +15,50 @@ and without saving it in the MongoDB Cloud
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add MongoDB Settings
-var mongoDBSettings = builder.Configuration.GetSection("MongoDB").Get<MongoDBSettings>();
+// Add MongoDB Settings from configuration (compatible with Azure)
 builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
-builder.Services.AddSingleton<IMongoClient>(s => new MongoClient(mongoDBSettings.ConnectionString));
+builder.Services.AddSingleton<IMongoClient>(s => {
+    var settings = s.GetRequiredService<IOptions<MongoDBSettings>>().Value;
+    return new MongoClient(settings.ConnectionString);
+});
 
+// API Keys from configuration (compatible with Azure)
 var alphaVantageApiKey = builder.Configuration["AlphaVantageApiKey"];
 var gpt3ApiKey = builder.Configuration["Gpt3ApiKey"];
 
-builder.Services.AddHttpClient("AlphaVantageService", client =>
-{
+// HttpClient configuration
+builder.Services.AddHttpClient("AlphaVantageService", client => {
     client.BaseAddress = new Uri("https://www.alphavantage.co/");
 });
-
 builder.Services.AddTransient(sp => new AlphaVantageService(sp.GetRequiredService<IHttpClientFactory>().CreateClient("AlphaVantageService"), alphaVantageApiKey));
 
-builder.Services.AddHttpClient("Gpt3Client", client =>
-{
+builder.Services.AddHttpClient("Gpt3Client", client => {
     client.BaseAddress = new Uri("https://api.openai.com/v1/");
     client.DefaultRequestHeaders.Add("Authorization", $"Bearer {gpt3ApiKey}");
 });
-
 builder.Services.AddTransient<Gpt3Service>();
 
 // MongoDB service registration
-builder.Services.AddSingleton<IMongoDatabase>(s =>
-{
+builder.Services.AddSingleton<IMongoDatabase>(s => {
     var client = s.GetRequiredService<IMongoClient>();
-    return client.GetDatabase(mongoDBSettings.DatabaseName);
+    var settings = s.GetRequiredService<IOptions<MongoDBSettings>>().Value;
+    return client.GetDatabase(settings.DatabaseName);
 });
-
 builder.Services.AddSingleton<MongoDBService>();
 
+// Controllers and Swagger configuration
 builder.Services.AddControllers();
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-/*if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}*/
-
+// Swagger UI available for both development and production
 app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
